@@ -6,7 +6,7 @@
   // Para verificar o resultado utilize:
   // http://localhost/variaveis/exemplo-04.php?a
   //
-  // Passar o valor 123 no GlobIterator
+  // Passar o valor 123 na URL
   // http://localhost/variaveis/exemplo-04.php?a=123
   $nome = $_GET['a'];
   var_dump($nome);
