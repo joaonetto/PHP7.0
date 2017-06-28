@@ -1,11 +1,14 @@
 <?php
 
-  session_start();
+  require_once('config.php');
   echo $_SESSION['nome'];
-  echo $session_id;
 
-  // session_unset(); // Limpa as variaves da Sessao
+  // Limpa as variaves da Sessao
+  // session_unset();
 
-  session_destroy(); // Apaga a sessao.
+  // Apaga a sessao.
+  //(Limpa a Variavel de Sessão e Destroi o usuário)
+  session_destroy();
+
 
 ?>
